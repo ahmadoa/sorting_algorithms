@@ -67,8 +67,6 @@ void sorting(int *array, ssize_t str, ssize_t fn, size_t size)
 
 void quick_sort(int *array, size_t size)
 {
-	ssize_t pivot;
-
 	if (array == NULL || size < 2)
 		return;
 	sorting(array, 0, size - 1, size);
